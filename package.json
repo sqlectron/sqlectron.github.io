@@ -1,0 +1,41 @@
+{
+  "name": "sqlectron.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack -p --config ./webpack-prod-config.js",
+    "dev": "NODE_ENV=development webpack-dev-server --config ./webpack-dev-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqlectron/sqlectron.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sqlectron/sqlectron.github.io/issues"
+  },
+  "homepage": "https://github.com/sqlectron/sqlectron.github.io#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.5",
+    "node-libs-browser": "^0.5.3",
+    "node-sass": "^3.4.2",
+    "normalize.css": "^3.0.3",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.1.2",
+    "static-render-webpack-plugin": "^0.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
