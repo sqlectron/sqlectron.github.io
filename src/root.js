@@ -30,6 +30,7 @@ export default class Root extends React.Component {
             <Footer/>
           </div>
           {isDev && <script src="/hot.js"/>}
+          {!isDev && <script src="/bundle.js"/>}
         </body>
       </html>
     )
