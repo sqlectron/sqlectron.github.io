@@ -8,7 +8,7 @@ export default class Hero extends React.Component {
       <div id="hero">
         <div className="container">
           <p className="description">
-            A simple and lightweight SQL client desktop<br />with cross database and platform support.
+            A simple and lightweight SQL client desktop/terminal<br />with cross database and platform support.
           </p>
           <div className="download-box">
             <div>
