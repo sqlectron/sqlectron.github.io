@@ -40,7 +40,7 @@ export default class Root extends React.Component {
             <Footer/>
           </div>
           {isDev && <script src="/hot.js"/>}
-          {!isDev && <script src="/bundle.js"/>}
+          {!isDev && <script src="/dist/bundle.js"/>}
           {!isDev && <GAInitiailizer />}
         </body>
       </html>
