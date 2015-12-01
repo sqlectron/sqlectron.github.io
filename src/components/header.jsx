@@ -16,14 +16,13 @@ export default class Header extends React.Component {
           </div>
           <div className="item">
             <ul id="menu">
-              <li><a href="#">Repository</a></li>
-              <li><a href="#">Issues</a></li>
-              <li><a href="#">Releases</a></li>
-              <li><a href="#">Documentation</a></li>
+              <li><a href="#gui">Sqlectron GUI</a></li>
+              <li><a href="#term">Sqlectron Term</a></li>
+              <li><a href="#opensource">Open Source</a></li>
             </ul>
           </div>
           <div className="item">
-            <a className="tweet button" href="https://twitter.com/intent/tweet?text=SQLECTRON%20https://sqlectron.github.io">Tweet</a>
+            <a className="tweet button" href="https://twitter.com/intent/tweet?text=A%20simple%20and%20lightweight%20SQL%20client%20desktop%2Fterminal%20with%20cross%20database%20and%20platform%20support.%20https%3A%2F%2Fsqlectron.github.io">Tweet</a>
           </div>
         </div>
       </div>

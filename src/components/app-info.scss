@@ -1,0 +1,100 @@
+.app {
+  margin-top: 35px;
+
+  @include respond-to('bigger than small') {
+    margin-top: 75px;
+
+    .container>div {
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  @include respond-to('bigger than medium') {
+    margin-top: 110px;
+  }
+
+  .description {
+    text-align: center;
+
+    @include respond-to('bigger than small') {
+      width: 300px;
+      text-align: inherit;
+    }
+
+    h1 {
+      font-size: 23px;
+      color: #333c4e;
+    }
+
+    @include respond-to('bigger than small') {
+      &.right {
+        padding-left: 50px;
+        width: 250px;
+      }
+    }
+
+    p {
+      color: #7E878E;
+      line-height: 30px;
+    }
+
+    ul.inner-menu {
+      margin: 15px 0;
+      padding: 0;
+
+
+      li {
+        display: block;
+        margin: 15px 0;
+
+        @include respond-to('bigger than x-small') {
+          display: inline-block;
+          margin-left: 15px;
+          margin-right: 15px;
+        }
+
+        @include respond-to('bigger than small') {
+          display: block;
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        a, a:visited, a:hover, a:active {
+          color: #3943A2;
+        }
+      }
+    }
+
+    .download {
+      text-align: center;
+      padding-top: 25px;
+      .button {
+        background: #40BAB5;
+      }
+    }
+  }
+  .demo {
+    text-align: center;
+
+    @include respond-to('bigger than small') {
+      width: 450px;
+    }
+    @include respond-to('bigger than small-medium') {
+      width: 550px;
+    }
+    @include respond-to('bigger than medium') {
+      width: 700px;
+    }
+
+    img {
+      width: 100%;
+      box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
+    }
+
+    .link-full-screen {
+      color: #1A71A7;
+      font-size: 14px;
+    }
+  }
+}

@@ -11,7 +11,9 @@ export default class Hero extends React.Component {
             A simple and lightweight SQL client desktop<br />with cross database and platform support.
           </p>
           <div className="download-box">
-            <a className="button" href="https://github.com/sqlectron/sqlectron-gui/releases/latest">Download</a>
+            <div>
+              <a className="button" href="https://github.com/sqlectron/sqlectron-gui/releases/latest">Download</a>
+            </div>
             <span>Available for Linux, Mac and Windows</span>
           </div>
           <img id="banner" src={screenShot} />

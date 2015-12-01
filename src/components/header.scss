@@ -1,0 +1,49 @@
+#header {
+  padding: 13px 0;
+
+  .item {
+    display: block;
+    text-align: center;
+
+    @include respond-to('bigger than medium') {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  img {
+    width: 200px;
+  }
+
+  #menu {
+    padding-left: 0;
+    @include respond-to('bigger than medium') {
+      margin-left: 135px;
+      margin-right: 35px;
+    }
+
+    li {
+      display: block;
+      margin: 10px;
+
+      @include respond-to('bigger than small') {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      a, a:visited, a:hover, a:active {
+        font-size: 18px;
+        color: #2E3A89;
+        text-transform: uppercase;
+      }
+      a:hover {
+        color: #3fbab4;
+      }
+    }
+  }
+
+  .tweet {
+    background: #2A94E7;
+    font-size: 0.8em;
+  }
+}

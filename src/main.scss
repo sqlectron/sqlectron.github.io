@@ -1,5 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto|Varela);
 
+/*
+  Settings breakpoint mixin
+ */
+@import "~breakpoint-sass";
+@include add-breakpoint('bigger than x-small', 480px);
+@include add-breakpoint('bigger than small', 768px);
+@include add-breakpoint('bigger than small-medium', 850px);
+@include add-breakpoint('bigger than medium', 992px);
+@include add-breakpoint('between small and medium', 768px 992px);
+
 
 #main {
   font-family: 'Varela', sans-serif;
@@ -8,18 +18,20 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  h2 {
+    font-size: 1.5em;
+  }
+
   a, a:visited, a:hover, a:active {
     text-decoration: none;
   }
 
   .button {
     background: #3943A2;
-    display: block;
     color: #FFF;
     text-align: center;
-    width: 170px;
-    height: 40px;
-    line-height: 40px;
+    display: inline-block;
+    padding: 5px 15px;
     margin: 15px auto;
     border-radius: 3px;
     font-size: 20px;
@@ -27,173 +39,20 @@
   }
 
   .container {
-    width: 1000px;
     margin: 0 auto;
     overflow: hidden;
-  }
 
-  #header {
-    padding: 13px 0;
-
-    .item {
-      display: inline-block;
-      vertical-align: middle;
-    }
-
-    img {
-      width: 200px;
-    }
-
-    #menu {
-      margin-left: 100px;
-      margin-right: 35px;
-
-      li {
-        display: inline-block;
-        margin: 0 10px;
-
-        a, a:visited, a:hover, a:active {
-          font-size: 18px;
-          color: #2E3A89;
-          text-transform: uppercase;
-        }
-      }
-    }
-
-    .tweet {
-      background: #2A94E7;
-      width: 55px;
-      height: 25px;
-      line-height: 25px;
-      font-size: 13px;
+    @include respond-to('bigger than medium') {
+      width: 1000px;
     }
   }
 
-  #hero {
-    background: #40BAB5;
-    text-align: center;
-    box-shadow: rgba(50, 50, 50, 0.5) 0px 2px 5px 0px,
-                rgba(50, 50, 50, 0.5) 0px 2px 7px inset;
-
-    .description {
-      color: #FFF;
-      font-size: 27px;
-      padding-top: 70px;
-    }
-
-    .download-box {
-      margin-bottom: 40px;
-
-      span {
-        color: #1871A4;
-        font-size: 15px;
-      }
-    }
-
-    #banner {
-      width: 100%;
-      margin-bottom: -5px;
-    }
-  }
-
-  .app {
-    margin-top: 110px;
-
-    .container>div {
-      display: inline-block;
-      vertical-align: top;
-      min-height: 440px;
-    }
-
-    .description {
-      width: 300px;
-      position: relative;
-
-      h1 {
-        font-size: 23px;
-        color: #333c4e;
-      }
-
-      &.right {
-        padding-left: 50px;
-        width: 250px;
-      }
-
-      p {
-        color: #7E878E;
-        line-height: 30px;
-      }
-
-      ul.inner-menu {
-        margin: 15px 0;
-        padding: 0;
-
-        li {
-          display: block;
-          margin: 15px 0;
-
-          a, a:visited, a:hover, a:active {
-            color: #3943A2;
-          }
-        }
-      }
-
-      .button {
-        width: 190px;
-        background: #40BAB5;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        right: 50%;
-        margin-left: -95px;
-        margin-right: -95px;
-      }
-    }
-    .demo {
-      width: 700px;
-      text-align: center;
-
-      img {
-        width: 100%;
-        box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
-      }
-
-      .link-full-screen {
-        color: #1A71A7;
-        font-size: 14px;
-      }
-    }
-  }
-
-  #contributor {
-    height: 300px;
-    background: #F2F2F2;
-    text-align: center;
-    padding-top: 70px;
-
-    h1 {
-      color: #363C4E;
-    }
-
-    p {
-      color: #7E878E;
-      line-height: 20px;
-    }
-
-    a {
-      margin-top: 50px;
-      width: 310px;
-    }
-  }
-
-  #footer {
-    height: 50px;
-    background: #1D2355;
-    text-align: center;
-
-    a, a:visited, a:hover, a:active {
-      color: #FFF;
-      line-height: 50px;
-    }
-  }
+  /*
+    Site components
+   */
+  @import "./components/header.scss";
+  @import "./components/hero.scss";
+  @import "./components/app-info.scss";
+  @import "./components/contributor.scss";
+  @import "./components/footer.scss";
 }

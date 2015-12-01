@@ -1,0 +1,30 @@
+#hero {
+  background: #40BAB5;
+  text-align: center;
+  box-shadow: rgba(50, 50, 50, 0.5) 0px 2px 5px 0px,
+              rgba(50, 50, 50, 0.5) 0px 2px 7px inset;
+
+  .description {
+    color: #FFF;
+    font-size: 27px;
+    padding-top: 70px;
+  }
+
+  .download-box {
+    margin-bottom: 40px;
+
+    a {
+      margin: 15px;
+    }
+
+    span {
+      color: #1871A4;
+      font-size: 15px;
+    }
+  }
+
+  #banner {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+}

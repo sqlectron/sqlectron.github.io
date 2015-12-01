@@ -38,7 +38,7 @@ module.exports = {
     loaders: [
       { test: /\.js$/, exclude: /node_modules/, loaders: ['babel'] },
       { test: /\.jsx$/, exclude: /node_modules/, loader: 'react-hot!babel'},
-      { test: /\.s?css$/, loaders: ['style', 'css', 'sass'] },
+      { test: /\.s?css$/, loaders: ['style', 'css', 'sass?includePaths[]='+ path.resolve(__dirname, 'node_modules')] },
       { test: /\.png$/, loader: 'url?mimetype=image/png' },
     ]
   }

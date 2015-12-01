@@ -23,6 +23,7 @@
   "devDependencies": {
     "babel-core": "^5.8.34",
     "babel-loader": "^5.4.0",
+    "breakpoint-sass": "^2.6.1",
     "css-loader": "^0.23.0",
     "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",

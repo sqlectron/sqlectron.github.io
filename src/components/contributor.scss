@@ -1,0 +1,28 @@
+#contributor {
+  background: #F2F2F2;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  @include respond-to('bigger than small') {
+    padding-top: 50px;
+  }
+
+  h1, h2 {
+    color: #363C4E;
+  }
+
+  p {
+    color: #7E878E;
+    line-height: 20px;
+  }
+
+  .links-repository {
+    margin: 25px 0;
+    a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 0.9em;
+    }
+  }
+}

@@ -20,7 +20,7 @@ module.exports = {
     loaders: [
       { test: /\.js$/, exclude: /node_modules/, loaders: ['babel'] },
       { test: /\.jsx$/, exclude: /node_modules/, loader: 'babel'},
-      { test: /\.s?css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader') },
+      { test: /\.s?css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass?includePaths[]='+ path.resolve(__dirname, 'node_modules')) },
       { test: /\.png$/, loader: 'url?mimetype=image/png' },
     ]
   },
