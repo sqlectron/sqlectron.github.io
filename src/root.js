@@ -27,7 +27,7 @@ export default class Root extends React.Component {
         <head>
           <title>Sqlectron</title>
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
           {!isDev && <link rel="stylesheet" type="text/css" href="/dist/style.css"/>}
         </head>
         <body>
