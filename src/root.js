@@ -19,6 +19,7 @@ export default class Root extends React.Component {
       <html>
         <head>
           <title>Sqlectron</title>
+          {!isDev && <link rel="stylesheet" type="text/css" href="/dist/style.css"/>}
         </head>
         <body>
           <div id="main">

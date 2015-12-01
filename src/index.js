@@ -1,5 +1,5 @@
 import React from 'react';
-import Root from './Root';
+import Root from './root';
 
 export default function(path, props, render) {
   render('<!doctype html>' + React.renderToString(<Root/>));

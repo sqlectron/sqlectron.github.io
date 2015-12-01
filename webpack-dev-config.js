@@ -27,6 +27,9 @@ module.exports = {
     hot: true
   },
   plugins: [
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('development'),
+    }),
     new StaticRenderPlugin('bundle.js', routes),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()

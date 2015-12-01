@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production webpack -p --config ./webpack-prod-config.js",
+    "clean": "rm -rf index.html dist",
+    "build": "npm run clean && NODE_ENV=production webpack -p --progress --config ./webpack-prod-config.js",
     "dev": "NODE_ENV=development webpack-dev-server --config ./webpack-dev-config.js"
   },
   "repository": {
@@ -23,7 +24,9 @@
     "babel-core": "^5.8.34",
     "babel-loader": "^5.4.0",
     "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",
+    "json5": "^0.4.0",
     "node-libs-browser": "^0.5.3",
     "node-sass": "^3.4.2",
     "normalize.css": "^3.0.3",
