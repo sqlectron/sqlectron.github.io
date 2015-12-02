@@ -1,8 +1,9 @@
 import React from 'react';
+import ReactDOMServer from 'react-dom/server';
 import Root from './root';
 
 export default function(path, props, render) {
-  render('<!doctype html>' + React.renderToString(<Root/>));
+  render('<!doctype html>' + ReactDOMServer.renderToString(<Root/>));
 }
 
 if (typeof document !== 'undefined') {
