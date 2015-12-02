@@ -1,6 +1,6 @@
 import React from 'react';
-
 import GithubWidget from './github-widget.jsx';
+
 
 const AppInfoGUI = () => (
   <div className="app" id="sqlectron-gui">
