@@ -6,7 +6,7 @@ const Contributor = () => (
     <div className="container">
       <h1>Become a contributor</h1>
       <p className="description">It is an open source project and any kind of contribution is welcome.</p>
-      <p className="description">Please help us with feedbacks or even better pull requests.</p>
+      <p className="description">Please help us with feedback or, even better, with pull requests.</p>
       <h2>View the project on GitHub</h2>
       <div className="links-repository">
         <a className="button" href="https://github.com/sqlectron/sqlectron-gui">GUI</a>
