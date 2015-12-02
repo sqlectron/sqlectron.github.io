@@ -30,21 +30,21 @@ export default class Root extends React.Component {
           <title>Sqlectron - One single DB client for any relational DB</title>
           <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-          <meta property="twitter:card" content="summary_large_image"/>
+          <meta property="twitter:card" content="summary"/>
           <meta property="twitter:title" content="Sqlectron - One single DB client for any relational DB"/>
           <meta property="twitter:description" content="A simple and lightweight SQL client desktop/terminal with cross database and platform support."/>
-          <meta property="twitter:image:src" content="https://sqlectron.github.io/logos/logo-256.png"/>
-          <meta property="twitter:image:width" content="256"/>
-          <meta property="twitter:image:height" content="88"/>
+          <meta property="twitter:image:src" content="https://sqlectron.github.io/logos/logo-square-180px.png"/>
+          <meta property="twitter:image:width" content="180"/>
+          <meta property="twitter:image:height" content="180"/>
           <meta property="og:url" content="https://sqlectron.github.io"/>
           <meta property="og:site_name" content="Sqlectron"/>
           <meta property="og:title" content="Sqlectron - One single DB client for any relational DB"/>
           <meta property="og:description" content="A simple and lightweight SQL client desktop/terminal with cross database and platform support."/>
-          <meta property="og:image" content="http://sqlectron.github.io/logos/logo-256.png"/>
-          <meta property="og:image:secure_url" content="https://sqlectron.github.io/logos/logo-256.png" />
+          <meta property="og:image" content="http://sqlectron.github.io/logos/logo-square-180px.png"/>
+          <meta property="og:image:secure_url" content="https://sqlectron.github.io/logos/logo-square-180px.png" />
           <meta property="og:image:type" content="image/png"/>
-          <meta property="og:image:width" content="256"/>
-          <meta property="og:image:height" content="88"/>
+          <meta property="og:image:width" content="180"/>
+          <meta property="og:image:height" content="180"/>
           {!isDev && <link rel="stylesheet" type="text/css" href="/dist/style.css"/>}
         </head>
         <body>
