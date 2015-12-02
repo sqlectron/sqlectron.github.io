@@ -19,8 +19,14 @@
     text-align: center;
 
     @include respond-to('bigger than small') {
-      width: 300px;
+      width: 275px;
       text-align: inherit;
+      padding-left: 25px;
+    }
+
+    @include respond-to('bigger than medium') {
+      width: 290px;
+      padding-left: 10px;
     }
 
     h1 {
