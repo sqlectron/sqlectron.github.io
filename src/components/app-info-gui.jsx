@@ -1,5 +1,6 @@
 import React from 'react';
 
+import GithubWidget from './github-widget.jsx';
 
 export default class AppInfoGUI extends React.Component {
   render() {
@@ -9,6 +10,10 @@ export default class AppInfoGUI extends React.Component {
         <div className="container">
           <div className="description">
             <h1>SQLECTRON-GUI</h1>
+            <div className="github-widget">
+              <GithubWidget user="sqlectron" repository="sqlectron-gui" type="star" />
+              <GithubWidget user="sqlectron" repository="sqlectron-gui" type="fork" />
+            </div>
             <p>A desktop application with a simple interface.</p>
             <ul className="inner-menu">
               <li><a href="https://github.com/sqlectron/sqlectron-gui">Repository</a></li>

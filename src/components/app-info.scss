@@ -108,4 +108,15 @@
       font-size: 0.875em;
     }
   }
+
+  .github-widget {
+    iframe {
+      float: left;
+    }
+  }
+  .github-widget:after {
+    content:'';
+    display: block;
+    clear: both;
+  }
 }

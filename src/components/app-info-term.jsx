@@ -1,5 +1,6 @@
 import React from 'react';
 
+import GithubWidget from './github-widget.jsx';
 
 export default class AppInfoTerm extends React.Component {
   render() {
@@ -15,6 +16,10 @@ export default class AppInfoTerm extends React.Component {
           </div>
           <div className="description right">
             <h1>SQLECTRON-TERM</h1>
+            <div className="github-widget">
+              <GithubWidget user="sqlectron" repository="sqlectron-term" type="star" />
+              <GithubWidget user="sqlectron" repository="sqlectron-term" type="fork" />
+            </div>
             <p>In case you prefer terminal interfaces. You should try this one.</p>
             <ul className="inner-menu">
               <li><a href="https://github.com/sqlectron/sqlectron-term">Repository</a></li>
