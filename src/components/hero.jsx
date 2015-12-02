@@ -12,7 +12,8 @@ export default class Hero extends React.Component {
           </h1>
           <div className="download-box">
             <div>
-              <a className="button" href="https://github.com/sqlectron/sqlectron-gui/releases/latest">Download</a>
+              <a className="button" href="https://github.com/sqlectron/sqlectron-gui/releases/latest">Download GUI</a>
+              <a className="button" href="https://github.com/sqlectron/sqlectron-term/releases/latest">Download Term</a>
             </div>
             <span>Available for Linux, Mac and Windows</span>
           </div>
