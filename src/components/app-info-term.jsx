@@ -26,7 +26,7 @@ const AppInfoTerm = () => (
           <li><a href="https://github.com/sqlectron/sqlectron-term">Documentation</a></li>
         </ul>
         <div className="download">
-          <a className="button" href="https://github.com/sqlectron/sqlectron-term/releases/latest">Download</a>
+          <a className="button" href="https://github.com/sqlectron/sqlectron-term#install">Download</a>
         </div>
       </div>
     </div>
