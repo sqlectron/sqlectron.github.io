@@ -6,12 +6,13 @@
 
     .container>div {
       display: inline-block;
-      vertical-align: top;
+      vertical-align: middle;
     }
   }
 
   @include respond-to('bigger than medium') {
     margin-top: 110px;
+    margin-bottom: 55px;
   }
 
   .description {
@@ -23,7 +24,7 @@
     }
 
     h1 {
-      font-size: 23px;
+      font-size: 1.438em;
       color: #333c4e;
     }
 
@@ -67,10 +68,14 @@
     }
 
     .download {
-      text-align: center;
+      text-align: left;
       padding-top: 25px;
       .button {
         background: #40BAB5;
+      }
+
+      @include respond-to('less than medium') {
+        text-align: center;
       }
     }
   }
@@ -94,7 +99,7 @@
 
     .link-full-screen {
       color: #1A71A7;
-      font-size: 14px;
+      font-size: 0.875em;
     }
   }
 }

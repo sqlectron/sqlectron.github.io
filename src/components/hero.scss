@@ -6,8 +6,19 @@
 
   .description {
     color: #FFF;
-    font-size: 27px;
+    font-size: 1.688em;
     padding-top: 70px;
+    line-height: 40px;
+    letter-spacing: 2px;
+
+    @include respond-to('less than small') {
+      font-size: 1.4em;
+      padding-top: 70px;
+      line-height: 40px;
+      letter-spacing: 2px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 
   .download-box {
@@ -19,7 +30,7 @@
 
     span {
       color: #1871A4;
-      font-size: 15px;
+      font-size: 0.875em;
     }
   }
 

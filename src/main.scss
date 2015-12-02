@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto|Varela);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Varela+Round);
 
 /*
   Settings breakpoint mixin
@@ -9,33 +9,36 @@
 @include add-breakpoint('bigger than small-medium', 850px);
 @include add-breakpoint('bigger than medium', 992px);
 @include add-breakpoint('between small and medium', 768px 992px);
+@include add-breakpoint('less than medium', max-width 992px);
 
 
 #main {
-  font-family: 'Varela', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   h1, h2, h3, h4, h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    padding-top: 7px;
   }
 
   a, a:visited, a:hover, a:active {
     text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
   }
 
   .button {
-    background: #3943A2;
-    color: #FFF;
+    background: #3943a2;
+    color: #fff;
     text-align: center;
     display: inline-block;
     padding: 5px 15px;
     margin: 15px auto;
     border-radius: 3px;
-    font-size: 20px;
-    box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
+    font-size: 1.250em;
+    box-shadow: 0 2px 5px 0 rgba(50,50,50,.5)
   }
 
   .container {
@@ -43,7 +46,7 @@
     overflow: hidden;
 
     @include respond-to('bigger than medium') {
-      width: 1000px;
+      width: 1010px;
     }
   }
 

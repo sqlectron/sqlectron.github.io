@@ -7,9 +7,9 @@ export default class Hero extends React.Component {
     return (
       <div id="hero">
         <div className="container">
-          <p className="description">
+          <h1 className="description">
             A simple and lightweight SQL client desktop/terminal<br />with cross database and platform support.
-          </p>
+          </h1>
           <div className="download-box">
             <div>
               <a className="button" href="https://github.com/sqlectron/sqlectron-gui/releases/latest">Download</a>
