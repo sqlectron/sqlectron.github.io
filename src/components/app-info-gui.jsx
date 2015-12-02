@@ -24,8 +24,8 @@ const AppInfoGUI = () => (
         </div>
       </div>
       <div className="demo">
-        <img src="https://camo.githubusercontent.com/92f609a8db66847417d8a17c5fb4457ecedd1ac5/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f6c66726468676b316b3268776d68672f73716c656374726f6e2d64656d6f2d76302e312e302e6769663f7261773d31" />
-        <a className="link-full-screen" href="https://camo.githubusercontent.com/92f609a8db66847417d8a17c5fb4457ecedd1ac5/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f6c66726468676b316b3268776d68672f73716c656374726f6e2d64656d6f2d76302e312e302e6769663f7261773d31">
+        <img src="https://sqlectron.github.io/demos/sqlectron-demo-gui-v1.0.0.gif" />
+        <a className="link-full-screen" href="https://sqlectron.github.io/demos/sqlectron-demo-gui-v1.0.0.gif">
           Click here to watch in the original size
         </a>
       </div>
