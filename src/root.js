@@ -30,18 +30,18 @@ export default class Root extends React.Component {
       <html>
         <head>
           <meta charSet="utf-8" />
-          <title>Sqlectron - One single DB client for all your relational DBs</title>
+          <title>Sqlectron - One single DB client for any relational DB</title>
           <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
           <meta property="twitter:card" content="summary_large_image"/>
-          <meta property="twitter:title" content="Sqlectron - One single DB client for all your relational DBs"/>
+          <meta property="twitter:title" content="Sqlectron - One single DB client for any relational DB"/>
           <meta property="twitter:description" content="A simple and lightweight SQL client desktop/terminal with cross database and platform support."/>
           <meta property="twitter:image:src" content={logo}/>
           <meta property="twitter:image:width" content="512"/>
           <meta property="twitter:image:height" content="176"/>
           <meta property="og:url" content="https://sqlectron.github.io"/>
           <meta property="og:site_name" content="Sqlectron"/>
-          <meta property="og:title" content="Sqlectron - One single DB client for all your relational DBs"/>
+          <meta property="og:title" content="Sqlectron - One single DB client for any relational DB"/>
           <meta property="og:description" content="A simple and lightweight SQL client desktop/terminal with cross database and platform support."/>
           <meta property="og:image" content={logo}/>
           <meta property="og:image:type" content="image/png"/>
