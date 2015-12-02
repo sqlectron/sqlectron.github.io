@@ -12,7 +12,7 @@ const GithubWidget = ({
   return (
     <iframe
 	  src={url}
-	  frameborder="0"
+	  frameBorder="0"
 	  scrolling="0"
 	  width={width}
 	  height={height} />

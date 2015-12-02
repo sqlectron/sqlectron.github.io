@@ -26,7 +26,7 @@ export default class Root extends React.Component {
     return (
       <html>
         <head>
-          <meta charset="utf-8" />
+          <meta charSet="utf-8" />
           <title>Sqlectron - A single DB client for all your relational DBs</title>
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
