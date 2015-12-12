@@ -3,8 +3,12 @@
   background: #1D2355;
   text-align: center;
 
-  a, a:visited, a:hover, a:active {
+  a {
     color: #FFF;
     line-height: 50px;
+
+    &:hover {
+      color: #36969a;
+    }
   }
 }

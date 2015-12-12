@@ -30,6 +30,10 @@
     font-family: 'Varela Round', sans-serif;
   }
 
+  a:hover {
+    color: #48d4cd !important;
+  }
+
   .button {
     background: #3943a2;
     color: #fff;
@@ -38,8 +42,17 @@
     padding: 5px 15px;
     margin: 15px auto;
     border-radius: 3px;
-    font-size: 1.250em;
+    font-size: 1.25em;
     box-shadow: 0 2px 5px 0 rgba(50,50,50,.5)
+  }
+
+  .button, .button:active, .button:hover, .button:visited {
+    background: #2f76bd;
+    box-shadow: 0 1px 2px 0 rgba(50,50,50,.3);
+  }
+
+  .button:hover {
+    background: #316cc4 !important;
   }
 
   .container {
@@ -52,7 +65,7 @@
   }
 
   iframe {
-    border:0;
+    border: 0;
   }
 
   /*
