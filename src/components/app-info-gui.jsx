@@ -22,6 +22,9 @@ const AppInfoGUI = () => (
         <div className="download">
           <a className="button" href="https://github.com/sqlectron/sqlectron-gui/releases/latest">Download</a>
         </div>
+        <p>
+          Note: For Linux users, to use Sqlectron, you will need to install libgconf separately.
+        </p>
       </div>
       <div className="demo">
         <img src="https://sqlectron.github.io/demos/sqlectron-demo-gui-v1.0.0.gif" />
