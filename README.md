@@ -1,6 +1,6 @@
 # sqlectron.github.io
 
-The [homepage](sqlectron.github.io) of the SQLECTRON project.
+The [homepage](https://sqlectron.github.io) of the SQLECTRON project.
 
 ## Development
 
