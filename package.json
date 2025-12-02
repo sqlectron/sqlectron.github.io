@@ -38,7 +38,7 @@
     "react-dom": "^16.13.1",
     "react-google-analytics": "^0.2.0",
     "react-hot-loader": "^4.12.21",
-    "sass-loader": "^7.3.1",
+    "sass-loader": "^10.5.2",
     "static-render-webpack-plugin": "^0.1.2",
     "style-loader": "^1.2.1",
     "url-loader": "^4.1.0",
