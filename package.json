@@ -26,7 +26,7 @@
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "breakpoint-sass": "^2.6.1",
-    "css-loader": "^4.2.0",
+    "css-loader": "^7.1.2",
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
